@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="kr.kjun.pushnotification" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="15" />
+	<permission android:protectionLevel="signature" android:name="kr.kjun.pushnotification.permission.C2D_MESSAGE" />
+	<uses-permission android:name="kr.kjun.pushnotification.permission.C2D_MESSAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="PushNotification.Android"></application>
+</manifest>
